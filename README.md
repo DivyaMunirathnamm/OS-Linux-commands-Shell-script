@@ -19,7 +19,7 @@ Execute the following commands
 ### Step 3:
 
 Testing the commands for the desired output. 
-
+s.n.da
 # COMMANDS:
 ### Create the following files file1, file2 as follows:
 cat > file1
@@ -43,23 +43,27 @@ s.n. dasgupta
 cat < file1
 ## OUTPUT
 
+![Screenshot 2024-09-03 035523](https://github.com/user-attachments/assets/42973e63-8c89-4b86-aa62-1b1c7909c72f)
 
 
 cat < file2
 ## OUTPUT
 
+![Screenshot 2024-09-03 035629](https://github.com/user-attachments/assets/46bd9971-3174-4688-bfea-edb7d6c9a386)
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+![Screenshot 2024-09-03 035734](https://github.com/user-attachments/assets/9c9f510b-ab62-4910-8f5d-b8ff75af5550)
+
 comm file1 file2
  ## OUTPUT
+![Screenshot 2024-09-03 035901](https://github.com/user-attachments/assets/e1efb62b-9190-4424-9654-e19f2973c31a)
 
- 
 diff file1 file2
 ## OUTPUT
 
+![Screenshot 2024-09-03 035901](https://github.com/user-attachments/assets/5e7f2563-e1dc-4e30-a58d-ac9d4a503668)
 
 #Filters
 
@@ -83,6 +87,7 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
+![Screenshot 2024-09-03 040107](https://github.com/user-attachments/assets/3ddd45e3-6c72-405a-8ef7-bd944335eeb1)
 
 
 
@@ -90,10 +95,12 @@ cut -d "|" -f 1 file22
 ## OUTPUT
 
 
+![Screenshot 2024-09-03 040130](https://github.com/user-attachments/assets/d603a522-a00b-400a-a764-fcce3e02d766)
 
 cut -d "|" -f 2 file22
 ## OUTPUT
 
+![Screenshot 2024-09-03 040205](https://github.com/user-attachments/assets/4d5206c5-2445-426e-9deb-208981363135)
 
 cat < newfile 
 ```
@@ -108,27 +115,35 @@ hello world
 grep Hello newfile 
 ## OUTPUT
 
+![Screenshot 2024-09-03 040243](https://github.com/user-attachments/assets/5c2ee57f-4205-42d8-ae93-75d2bfcdef99)
 
 
 grep hello newfile 
 ## OUTPUT
 
 
+![Screenshot 2024-09-03 040257](https://github.com/user-attachments/assets/45a6fb97-7494-4fc9-8b6c-ce27978b769d)
 
 
 grep -v hello newfile 
 ## OUTPUT
+
+![Screenshot 2024-09-03 040320](https://github.com/user-attachments/assets/27e841ab-6015-4fa8-bc2f-e3d11b51e02b)
+
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
 
+![Screenshot 2024-09-03 040338](https://github.com/user-attachments/assets/8c4a2617-98ba-479c-9613-3d657d547ba6)
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
+
+![Screenshot 2024-09-03 040358](https://github.com/user-attachments/assets/62bb62f4-82b7-40df-b615-78a77b44bb59)
 
 
 
@@ -138,8 +153,10 @@ grep -R ubuntu /etc
 
 
 
+
 grep -w -n world newfile   
 ## OUTPUT
+![Screenshot 2024-09-03 040746](https://github.com/user-attachments/assets/26394d67-c0dd-4609-8888-6529cb4e6d75)
 
 
 cat < newfile 
@@ -193,7 +210,6 @@ egrep '(World$)' newfile
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
-
 
 
 egrep '[1-9]' newfile 
