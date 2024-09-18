@@ -1020,6 +1020,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+![Screenshot from 2024-08-31 01-12-49](https://github.com/user-attachments/assets/34d395e5-d3b4-41ac-9fe7-ce7f7920bc5d)
 
 
  cat exread1.sh
@@ -1032,6 +1033,7 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ## OUTPUT
+![Screenshot from 2024-08-31 01-12-56](https://github.com/user-attachments/assets/3979881c-e9bd-4234-a88f-f0b0f35f1514)
 
 
 
@@ -1071,7 +1073,8 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+ ![Screenshot from 2024-08-31 01-13-09](https://github.com/user-attachments/assets/8c402693-4650-4099-a7c3-f0cffe914eaa)
+
  cat argshift1.sh
 ```bash
  #/bin/bash 
@@ -1088,7 +1091,8 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+ ![Screenshot from 2024-08-31 01-13-15](https://github.com/user-attachments/assets/08011c6b-9635-444c-b7a8-264fbf296aaa)
+
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -1101,7 +1105,8 @@ set +x
 ```
 ## OUTPUT
  ./argshift.sh 1 2 3
- 
+ ![Screenshot from 2024-08-31 01-13-24](https://github.com/user-attachments/assets/c552d9b8-3551-46e3-8d44-3e2dc0d74e0e)
+
  
 cat > nc.awk
 ```bash
@@ -1132,7 +1137,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ ![Screenshot from 2024-08-31 01-13-34](https://github.com/user-attachments/assets/c9942fa4-0d2b-47e9-93a5-803c9c135460)
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1159,6 +1165,7 @@ else
 fi
 ```
 ## OUTPUT 
+![Screenshot from 2024-08-31 01-13-47](https://github.com/user-attachments/assets/19f0c21b-2b61-4823-a50e-f852858b39f0)
 
 
 # RESULT:
