@@ -1052,7 +1052,7 @@ else
 echo "Usage: badtest1 a b"
 fi
 ```
-## OUTPUT
+## OUTPUT.
  ./funcex.sh 
 
  
